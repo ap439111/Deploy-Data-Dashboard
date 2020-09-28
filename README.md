@@ -2,7 +2,7 @@
 
 This project deploys data dashboard to web
 
-#Steps to upload 
+# Steps to upload 
 
      pip3 install virtualenv
      virtualenv --python=/usr/bin/python3 venv
