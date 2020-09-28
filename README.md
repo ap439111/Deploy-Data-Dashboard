@@ -22,7 +22,7 @@ This project deploys data dashboard to web
      heroku login -i
      and then enter your email and password when asked
 
-# go into the 5_deployment folder with:
+# go into the DeployDataDashboar folder with:
      cd DeployDataDashboard
      
 # create a procfile with the command:
@@ -35,14 +35,26 @@ This project deploys data dashboard to web
 #  create a requirements file with this command:
 
      pip freeze > requirements.txt
+     
+# initialize a git repository with the following commands:
      git init
      git add .
+     
+# configure the email and user name, you can use these commands:
      git config --global user.email something@email.com
      git config --global user.name "john"
+     
+# make a commit with this command:
      git commit -m "first commit"
+     
+# create a uniquely named heroku app. Use this command:
      heroku create undatadash
+     
+     If you get a message that the app name is already taken, try again with a different app name until you find one that is not taken.
+# Check that heroku added a remote repository with this command:     
      git remote -v
+#  push the app to Heroku:
      git push heroku master
-
-
-Check: https://undatadash.herokuapp.com/
+     
+# Go to the link for your web app to see if it's working. The link should be:
+    Check: https://undatadash.herokuapp.com/
