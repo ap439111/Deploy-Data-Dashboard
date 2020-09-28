@@ -3,6 +3,12 @@
 This project deploys data dashboard to web
 
 # Files/Folders in the folder DeployDataDashboard
+    I. Data: This folder contains UNdata_Export_20200922_021257174.csv 
+    II. myapp: This folder contains following file/folders:
+               i.   templates: this fodler contains index.html file
+               ii.  static/img: contains logo of lindedIn and GitHub
+               iii. routes.py
+               iv.  __init__.py
   
 
 # Go to www.heroku.com and create an account if you haven't already.
@@ -19,6 +25,7 @@ This project deploys data dashboard to web
     
     curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
     https://devcenter.heroku.com/articles/heroku-cli#standalone-installation
+    
      heroku --version
      
 # command line login to heroku
