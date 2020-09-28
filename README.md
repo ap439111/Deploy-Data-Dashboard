@@ -25,11 +25,15 @@ This project deploys data dashboard to web
 # go into the 5_deployment folder with:
      cd DeployDataDashboard
      
-# create a procfile with the command
-     touch Procfile
+# create a procfile with the command:
+    > touch Procfile
+    
     and put the following in the Procfile
-    web gunicorn worldbank:app
+    
+    > web gunicorn worldbank:app
      
+#  create a requirements file with this command:
+
      pip freeze > requirements.txt
      git init
      git add .
